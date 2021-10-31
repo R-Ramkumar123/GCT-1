@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #000;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+h1 {
+  /* padding: 20px 500px; */
+  color: #fff;
+}
+
+p {
+  font-size: 17px;
+  /* color: #fff; */
+}
+
+.content {
+  /* background: blue; */
+  border: #000;
+  margin: 20px;
+  border-style: double;
+  border-color: red;
+  padding: 20px;
+}

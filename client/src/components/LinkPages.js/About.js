@@ -1,0 +1,31 @@
+import React from "react";
+import "../LinkPages.js/about.css";
+
+function About() {
+  return (
+    <div>
+      <h1>About the Department</h1>
+      <p class="content">
+        The Department was established in 1970 with B.E. programme in
+        Electronics and Communication Engineering. Later on, in 1981 post
+        graduate programme in M.E. Applied Electronics and in 2003 M.E. VLSI
+        Design programme were also started in the Department. All the courses
+        are offered as both part-time and full-time. The Department has total
+        staff strength of 16 including Teaching and Non-Teaching staff. The
+        experienced professors guide the Department aiming at educating and
+        training students with sound knowledge and awareness in the fields of
+        electronics, communication and information technology. The Department is
+        recognized for research under Information and Communication Engineering
+        affiliated to Anna University::Chennai. The Department has signed MoU
+        with several companies like Texas Instruments, Robert Bosch which
+        provide training to faculty and students on recent techniques.Various
+        workshops and trainingprogrammeare frequently conducted in the
+        Department. Every year Department organizes National conference on
+        Advanced Computing and Communication Systems. A National level technical
+        symposium ‘NEXUS’ is being conducted by ECE students association.
+      </p>
+    </div>
+  );
+}
+
+export default About;
