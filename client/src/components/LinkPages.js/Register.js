@@ -2,7 +2,7 @@ import React from "react";
 import "../LinkPages.js/login.css";
 import GCT from "../images/GCT.png";
 
-function Login() {
+function Register() {
   return (
     <div className="lo-container">
       <div className="lo-logo">
@@ -24,7 +24,7 @@ function Login() {
             type="text"
             name="username"
             id="username"
-            placeholder="Roll No"
+            placeholder="Email Address"
           />
           <i className="fas fa-unlock-alt"></i>
           <input
@@ -43,18 +43,18 @@ function Login() {
         </div>
 
         <div className="lo-login-btn">
-          <button className="lo-btn">Login</button>
-          {/* <p className="lo-signup">
+          <button className="lo-btn">Register</button>
+          <p className="lo-signup">
             New here ?{" "}
             <span>
               {" "}
               <a href="./register.html">Sign Up</a>
             </span>
-          </p> */}
+          </p>
         </div>
       </div>
     </div>
   );
 }
 
-export default Login;
+export default Register;

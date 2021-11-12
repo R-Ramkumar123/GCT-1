@@ -5,6 +5,7 @@ import About from "./components/LinkPages.js/About";
 import Login from "./components/LinkPages.js/Login";
 import Staffdetails from "./components/LinkPages.js/Staffdetails";
 import Vismis from "./components/LinkPages.js/Vismis";
+import Register from "./components/LinkPages.js/Register";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path="/vision" component={Vismis} />
       <Route path="/staffdetails" component={Staffdetails} />
       <Route path="/login" component={Login} />
+      <Route path="/Register" component={Register}/>
     </BrowserRouter>
   );
 }
